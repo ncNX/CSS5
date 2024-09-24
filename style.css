@@ -1,0 +1,106 @@
+/* 
+
+.spiner {
+	width: 200px;
+	height: 200px;
+
+	position: relative;
+}
+
+.spiner-sector {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	border: 6px solid transparent;
+	border-radius: 50%;
+	animation: rotate var(--duration) infinite linear;
+}
+
+.spiner-black {
+	border-bottom: 6px double black;
+	--duration: 3s;
+}
+
+.spiner-gray {
+	border-left: 6px dotted gray;
+	--duration: 4s;
+}
+
+.spiner-blue {
+	border-top: 6px dotted blue;
+	--duration: 3s;
+}
+
+.spiner-green {
+	border-right: 6px dotted green;
+	--duration: 4s;
+}
+
+.spiner-red {
+	border-bottom: 6px dotted red;
+	--duration: 5s;
+}
+
+.spiner-yellow {
+	border-left: 6px dotted yellow;
+	--duration: 6s;
+}
+
+@keyframes rotate {
+	0%{
+		transform: rotate(0);
+	}
+
+	100%{
+		transform: rotate(360deg);
+	}
+} */
+
+
+/* .test{
+	background-color: blueviolet;
+	height: 100px;
+	width: 400px;
+	transition: all 1s;
+}
+
+.test:hover {
+	width: 600px;
+} */
+
+/* 
+.bg {
+	height: 500px;
+	background-image: url(/vesela.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	display: grid;
+	place-items: center;
+}
+
+.glass-effect {
+	height: 200px;
+	width: 500px;
+
+	backdrop-filter: blur(10px);
+
+	color: white;
+	font-size: 36px;
+	display: grid;
+	place-items: center;
+
+} */
+
+.media-test {
+	background-color: blueviolet;
+
+	display: flex;
+}
+
+@media screen and (max-width: 500px) {
+	.media-test {
+		background-color: black;
+		flex-direction: column;
+	}
+}
